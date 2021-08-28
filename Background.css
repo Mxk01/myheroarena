@@ -1,0 +1,11 @@
+.Main-Text-Banner {
+    color: #c0c0c0;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 2.5em;
+    width: 2.5em;
+}
