@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap%27');
+
+.characterContainer{
+    width: 40vw;
+    height: 20vh;
+    max-height: 30vh;
+    color: white;
+    background-color: #5f27cd;
+    margin-bottom: 10px;
+    padding: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-family: 'Lato', sans-serif;
+}
+.characterContainer > h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+
+.characterContainer > img {
+    width: 1em;
+    height: 1em;
+    object-fit: cover;
+}
+
+.searchBar {
+    border: 0px;
+    padding: 0.5rem;
+    margin:10px;
+    background:transparent;
+    outline:none; 
+    color:white;
+    font-size:0.7rem;
+    border-bottom: 2px solid white;
+}
+
+.mainContainer 
+{
+    /* background-image: radial-gradient(circle, rgba(0, 34, 73, 0.575) 0%, rgba(3, 22, 1, 0.644) 90%), url('https://wallpaper.dog/large/11038499.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #341f97;
+    height: 100vh;
+    overflow-x:hidden;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    
+}
+
+.characters 
+{
+    overflow-y: scroll; /* Hide vertical scrollbar */
+
+    height:60vh;
+ 
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.character__skill__description
+{
+    width:50vw;
+    font-family: 'Lato', sans-serif;
+    color:white;
+    margin-bottom:20px;
+    font-size:1rem;
+    height:20vh;
+    padding:1rem;
+     background-color: #713dd8;
+     
+}

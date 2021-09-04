@@ -1,0 +1,45 @@
+
+
+a {
+    text-decoration: none;
+    margin: 0.2em;
+    padding: 0.2em;
+    font-size: 14px;
+    color: black;
+    font-weight:lighter;
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover{
+    color: slategray;
+}
+
+.Request {
+    margin: 0;
+    padding: 0;
+    color: slategray;  
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 3em;
+    width: 6em;
+    font-family: 'Lato', sans-serif;
+}
+
+.Request:hover {
+    background-color: blue;
+}
+
+.Navbar {
+    display: flex;
+    width: 100vw;
+    align-content: center;
+    justify-content: space-between;
+    font-weight: bold;
+    position: sticky;
+    font-family: 'Lato', sans-serif;
+    background: transparent;
+}
+
+
+

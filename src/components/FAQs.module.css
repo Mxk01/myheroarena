@@ -1,0 +1,28 @@
+.faqsContainer {
+    background-image: radial-gradient(circle, rgba(0, 34, 73, 0.575) 0%, rgba(3, 22, 1, 0.644) 90%), url('https://wallpaper.dog/large/11038499.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.Box {
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    background: rgba(135, 255, 255, 0.144);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(101,19,26);
+    border-radius: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color:  snow;
+}
+
+.Box ul {
+    text-transform: uppercase;
+}
+
+.Box li {
+    list-style-type: none;
+}
