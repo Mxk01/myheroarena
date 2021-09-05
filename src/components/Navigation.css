@@ -27,19 +27,31 @@ a:hover{
 }
 
 .Request:hover {
-    background-color: blue;
+    background-color: rgb(255, 71, 24);
+    color:white;
+    cursor: pointer;
 }
 
 .Navbar {
     display: flex;
     width: 100vw;
     align-content: center;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-weight: bold;
     position: sticky;
+    top:0;
     font-family: 'Lato', sans-serif;
-    background: transparent;
+    background-color:white;
+    height:5vh;
 }
 
 
 
+@media only screen and (max-width: 700px) {
+    .Navbar {
+    display:flex;
+    flex-direction:column;
+    
+    }
+  }

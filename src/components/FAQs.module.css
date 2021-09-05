@@ -1,8 +1,11 @@
 .faqsContainer {
-    background-image: radial-gradient(circle, rgba(0, 34, 73, 0.575) 0%, rgba(3, 22, 1, 0.644) 90%), url('https://wallpaper.dog/large/11038499.png');
+    background-image: radial-gradient(circle, rgba(7, 8, 7, 0.575) 0%, rgba(165, 19, 19, 0.644) 90%), url('https://i.imgur.com/UHARLcD.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -10,13 +13,14 @@
     width: 450px;
     height: 450px;
     padding: 15px;
-    background: rgba(135, 255, 255, 0.144);
+    background: rgba(209, 36, 36, 0.404);
     backdrop-filter: blur(10px);
-    border: 1px solid rgb(101,19,26);
+    border: 1px solid rgb(253, 54, 71);
     border-radius: 25px;
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     color:  snow;
+    width:60vw;
 }
 
 .Box ul {
@@ -25,4 +29,12 @@
 
 .Box li {
     list-style-type: none;
+}
+
+.droppable 
+{
+   display:flex;
+   justify-content: space-between;
+   cursor:pointer;
+   
 }

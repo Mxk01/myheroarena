@@ -7,33 +7,38 @@ import FAQs from './components/FAQs';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
 import Characters from './components/Characters';
+import Selection from './components/Selection';
 
 function App() {
-    return ( <div className='App'>
-      <Router>
+  return (<div className='App'>
+    <Router>
       <Navigation />
-        <Switch>
-          <Route exact path='/'>
-            <Background />
-          </Route>
-          <Route path='/aboutme'>
-            <AboutMe />
-          </Route>
-          <Route path='/faqs'>
-            <FAQs />
-          </Route>
-          <Route path='/characters'>
-            <Characters />
-          </Route>
-          <Route path='/login'>
-            <Login />
-          </Route>
-          <Route path='/sign-up'>
-            <SignUp />
-          </Route>
-        </Switch>
-      </Router>
-    </div>
+      <Switch>
+        <Route exact path='/'>
+          <Background />
+        </Route>
+        <Route path='/aboutme'>
+          <AboutMe />
+        </Route>
+        <Route path='/faqs'>
+          <FAQs />
+        </Route>
+        <Route path='/characters'>
+          <Characters />
+        </Route>
+        <Route path='/login'>
+          <Login />
+        </Route>
+        <Route path='/sign-up'>
+          <SignUp />
+        </Route>
+
+        <Route path='/selection'>
+          <Selection />
+        </Route>
+      </Switch>
+    </Router>
+  </div>
   );
 }
 
